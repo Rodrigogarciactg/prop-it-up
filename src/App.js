@@ -4,28 +4,28 @@ function App() {
   return (
     <div className="App">
       <PersonCard
-        lastName={"Doe,"}
+        lastName={"Doe"}
         firstName={"Jane"}
-        age={"45"}
         hairColor={"Black"}
+        initialAge={45}
       />
       <PersonCard
-        lastName={"Smith,"}
+        lastName={"Smith"}
         firstName={"John"}
-        age={"88"}
         hairColor={"Brown"}
+        initialAge={88}
       />
       <PersonCard
-        lastName={"Fillmore,"}
+        lastName={"Fillmore"}
         firstName={"Millard"}
-        age={"50"}
         hairColor={"Brown"}
+        initialAge={50}
       />
       <PersonCard
-        lastName={"Smith,"}
+        lastName={"Smith"}
         firstName={"Maria"}
-        age={"62"}
         hairColor={"Brown"}
+        initialAge={62}
       />
     </div>
   );
