@@ -3,29 +3,24 @@ import PersonCard from "./Components/PersonCard";
 function App() {
   return (
     <div className="App">
-      <PersonCard
-        lastName={"Doe"}
-        firstName={"Jane"}
-        hairColor={"Black"}
-        initialAge={45}
-      />
+      <PersonCard lastName={"Doe"} firstName={"Jane"} hair={"Black"} age={45} />
       <PersonCard
         lastName={"Smith"}
         firstName={"John"}
-        hairColor={"Brown"}
-        initialAge={88}
+        hair={"Brown"}
+        age={88}
       />
       <PersonCard
         lastName={"Fillmore"}
         firstName={"Millard"}
-        hairColor={"Brown"}
-        initialAge={50}
+        hair={"Brown"}
+        age={50}
       />
       <PersonCard
         lastName={"Smith"}
         firstName={"Maria"}
-        hairColor={"Brown"}
-        initialAge={62}
+        hair={"Brown"}
+        age={62}
       />
     </div>
   );
